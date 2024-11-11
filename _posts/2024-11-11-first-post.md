@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Post"
+title: "사전질문들"
 date: 2024-11-11
 ---
 
