@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Irene's Page"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "데이터/프로덕트 분석, 파이프라인, 거버넌스 데이터 기술 블로그"
+  location         : "Shanghai -> London -> Seoul -> ???"
+  email            : "hmynmsrnl@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:hmynmsrnl@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
