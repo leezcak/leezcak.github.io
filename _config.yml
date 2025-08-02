@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Irene's Page"
+title                    : "데이터 페이지"
 subtitle                  : "데이터/프로덕트 분석, 파이프라인, 거버넌스 데이터 기술 블로그"
-description: "이 블로그는 데이터와 프로덕트 관련 경험을 공유합니다."
-name                     : "Irene's Page"
-description              : "데이터/프로덕트 분석, 파이프라인, 거버넌스 데이터 기술 블로그."
+description:              
+name                     : "데이터 페이지"
+description              : 
 url                      : "https://leezcak.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
