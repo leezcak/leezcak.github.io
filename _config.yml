@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Irene's Page"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Irene's Page"
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Irene's Page"
+  name             : "Irene Lee (이예진)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "데이터/프로덕트 분석, 파이프라인, 거버넌스 데이터 기술 블로그"
   location         : "Shanghai -> London -> Seoul -> ???"
