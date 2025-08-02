@@ -116,7 +116,7 @@ author:
   name             : "Irene Lee (이예진)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "데이터/프로덕트 분석, 파이프라인, 거버넌스 데이터 기술 블로그"
-  location         : "Shanghai -> London -> Seoul -> ???"
+  location         : "SH -> LDN -> SEL -> ???"
   email            : "hmynmsrnl@gmail.com"
   links:
     - label: "Email"
