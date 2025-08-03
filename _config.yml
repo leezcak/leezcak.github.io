@@ -11,7 +11,7 @@ minimal_mistakes_skin    : default # "air", "aqua", "contrast", "dark", "dirt", 
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "데이터 페이지"
-subtitle                  : "데이터/프로덕트 분석, 파이프라인, 거버넌스 데이터 기술 블로그"
+subtitle                  : "데이터/프로덕트 분석, 파이프라인, 거버넌스 등등 블로그"
 description:              
 name                     : "데이터 페이지"
 description              : 
@@ -106,10 +106,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Product/Data Analyst"
+  name             : "Product/Data Analytics"
   avatar           : "/assets/images/profile.jpg"
-  bio              : 
-  location         : "SH -> LDN -> SEL -> ???"
+  bio              : "에이 설마 이것도 모르겠어? 넵 모릅니다. 그래서 배웁니다. 그래서 분석합니다."
   email            : "hmynmsrnl@gmail.com"
   links:
     - label: "Email"
