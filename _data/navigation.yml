@@ -1,6 +1,5 @@
-# 상단 메뉴
 main:
-  - title: "홈"
+  - title: "Home"
     url: /
   - title: "Data"
     url: /categories/data/
@@ -11,49 +10,33 @@ main:
   - title: "About"
     url: /about/
 
-# 왼쪽 사이드바
 categories:
-  - title: "📊 Data"
+  - title: "Data"
     url: /categories/data/
     children:
       - title: "SQL"
         url: /categories/sql/
       - title: "Python"
         url: /categories/python/
-      - title: "통계 & 방법론"
+      - title: "Statistics"
         url: /categories/statistics/
-      - title: "프로덕트 분석"
+      - title: "Product Analytics"
         url: /categories/product-analytics/
 
-  - title: "🛠️ Data Engineering"
+  - title: "Data Engineering"
     url: /categories/data-engineering/
 
-  - title: "🚀 Growth"
+  - title: "Growth"
     url: /categories/growth/
     children:
-      - title: "공부 기록"
+      - title: "Study Log"
         url: /categories/study-log/
-      - title: "회고"
+      - title: "Retrospective"
         url: /categories/retrospective/
-      - title: "성과 & 프로젝트"
+      - title: "Achievement"
         url: /categories/achievement/
-      - title: "읽을거리"
+      - title: "Reading"
         url: /categories/reading/
 
-  - title: "👋 About"
+  - title: "About"
     url: /about/
-```
-
-Commit message: `카테고리 구조 변경 (Data, Engineering, Growth, About)`
-
----
-
-## 변경 3: 초록색 포인트 컬러
-
-새 파일을 만들어야 해요.
-
-**① GitHub에서** `leezcak/leezcak.github.io` 레포 메인 → **"Add file" → "Create new file"**
-
-**② 파일 이름에** 이렇게 입력:
-```
-assets/css/main.scss
