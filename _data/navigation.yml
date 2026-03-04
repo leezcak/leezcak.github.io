@@ -1,14 +1,4 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Data"
-    url: /categories/data/
-  - title: "Data Engineering"
-    url: /categories/data-engineering/
-  - title: "Growth"
-    url: /categories/growth/
-  - title: "About"
-    url: /about/
 
 categories:
   - title: "Data"
