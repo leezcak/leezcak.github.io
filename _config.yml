@@ -97,10 +97,8 @@ analytics:
 # =============================================================================
 author:
   name             : "턴어페이지"
-  avatar           : "/assets/images/profile.jpg"
   bio              : "Curious Data Analyst 🐣<br>Product · Data · Growth"
   location         : "Seoul, Korea"
-  email            : "hmynmsrnl@gmail.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -265,5 +263,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+        nav: "categories"
+  # home (메인 페이지)
+  - scope:
+      path: ""
+      type: "pages"
+    values:
       sidebar:
         nav: "categories"
