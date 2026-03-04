@@ -59,7 +59,7 @@ search_provider          : lunr
 # =============================================================================
 google_site_verification :   "lWt3AlIe9LmK4I48gyLhlDzJinWQCD_6_vi686KseWY"
 bing_site_verification   :
-naver_site_verification  :   # ← Naver Search Advisor 인증 후 입력
+naver_site_verification  :   "293f3558daea86719605bfc56f235d97b108e32a"
 yandex_site_verification :
 baidu_site_verification  :
 
