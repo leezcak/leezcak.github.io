@@ -53,6 +53,7 @@ analytics:
   provider               : false
 
 author:
+  name: "턴어페이지"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
