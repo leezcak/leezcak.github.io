@@ -11,7 +11,6 @@ locale                   : "ko-KR"  # ← 변경: 한국어
 rtl                      : false
 title                    : "턴어페이지"
 title_separator          : "|"
-subtitle                 : "Data Blog by a Curious Analyst"
 name                     : "턴어페이지 | Turn a Page"
 description              : "데이터 분석가의 성장 블로그. 실무 인사이트, 분석 방법론, 커리어 여정을 한국어와 영어로 기록합니다."
 url                      : "https://leezcak.github.io"
@@ -96,9 +95,6 @@ analytics:
 # Site Author
 # =============================================================================
 author:
-  name             : "턴어페이지"
-  bio              : "Curious Data Analyst 🐣<br>Product · Data · Growth"
-  location         : "Seoul, Korea"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
