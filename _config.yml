@@ -36,9 +36,9 @@ comments:
     discussion_term      : "pathname"
     reactions_enabled    : "1"
     theme                : "preferred_color_scheme"
-    strict               : 0
+strict               : "0"
     input_position       : "bottom"
-    emit_metadata        : 1
+    emit_metadata        : "1"
     lang                 : "ko"
     lazy                 : true
 
