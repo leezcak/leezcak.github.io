@@ -65,6 +65,16 @@ code {
 .author__name {
   display: none;
 }
+.author__avatar {
+  display: none;
+}
+.author__content {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .author__urls-wrapper {
+  margin-top: 0;
+}
 
 /* 연락처 간격 통일 */
 .author__urls.social-icons li {
