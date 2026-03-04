@@ -2,32 +2,19 @@
 main:
   - title: "홈"
     url: /
-  - title: "카테고리"
-    url: /categories/
-  - title: "태그"
-    url: /tags/
-  - title: "English"
-    url: /en/
-  - title: "소개"
+  - title: "Data"
+    url: /categories/data/
+  - title: "Data Engineering"
+    url: /categories/data-engineering/
+  - title: "Growth"
+    url: /categories/growth/
+  - title: "About"
     url: /about/
 
-# 왼쪽 사이드바 카테고리
+# 왼쪽 사이드바
 categories:
-  - title: "🇰🇷 한국어"
-    url: /
-  - title: "🇺🇸 English"
-    url: /en/
-
-  - title: "🚀 성장 여정"
-    children:
-      - title: "공부 기록"
-        url: /categories/study-log/
-      - title: "회고"
-        url: /categories/retrospective/
-      - title: "성과 & 프로젝트"
-        url: /categories/achievement/
-
-  - title: "📊 데이터 & 분석"
+  - title: "📊 Data"
+    url: /categories/data/
     children:
       - title: "SQL"
         url: /categories/sql/
@@ -37,40 +24,36 @@ categories:
         url: /categories/statistics/
       - title: "프로덕트 분석"
         url: /categories/product-analytics/
-      - title: "엔지니어링"
-        url: /categories/engineering/
 
-  - title: "📚 읽을거리"
-    url: /categories/reading/
+  - title: "🛠️ Data Engineering"
+    url: /categories/data-engineering/
 
-# 영어 포스트용 사이드바
-categories_en:
-  - title: "🇰🇷 한국어"
-    url: /
-  - title: "🇺🇸 English"
-    url: /en/
-
-  - title: "🚀 Growth Journey"
+  - title: "🚀 Growth"
+    url: /categories/growth/
     children:
-      - title: "Study Log"
+      - title: "공부 기록"
         url: /categories/study-log/
-      - title: "Retrospective"
+      - title: "회고"
         url: /categories/retrospective/
-      - title: "Achievement"
+      - title: "성과 & 프로젝트"
         url: /categories/achievement/
+      - title: "읽을거리"
+        url: /categories/reading/
 
-  - title: "📊 Data & Analytics"
-    children:
-      - title: "SQL"
-        url: /categories/sql/
-      - title: "Python"
-        url: /categories/python/
-      - title: "Statistics"
-        url: /categories/statistics/
-      - title: "Product Analytics"
-        url: /categories/product-analytics/
-      - title: "Engineering"
-        url: /categories/engineering/
+  - title: "👋 About"
+    url: /about/
+```
 
-  - title: "📚 Reading"
-    url: /categories/reading/
+Commit message: `카테고리 구조 변경 (Data, Engineering, Growth, About)`
+
+---
+
+## 변경 3: 초록색 포인트 컬러
+
+새 파일을 만들어야 해요.
+
+**① GitHub에서** `leezcak/leezcak.github.io` 레포 메인 → **"Add file" → "Create new file"**
+
+**② 파일 이름에** 이렇게 입력:
+```
+assets/css/main.scss
