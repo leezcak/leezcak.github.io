@@ -1,12 +1,76 @@
-# main links
+# 상단 메뉴
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "홈"
+    url: /
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
+  - title: "English"
+    url: /en/
+  - title: "소개"
+    url: /about/
+
+# 왼쪽 사이드바 카테고리
+categories:
+  - title: "🇰🇷 한국어"
+    url: /
+  - title: "🇺🇸 English"
+    url: /en/
+
+  - title: "🚀 성장 여정"
+    children:
+      - title: "공부 기록"
+        url: /categories/study-log/
+      - title: "회고"
+        url: /categories/retrospective/
+      - title: "성과 & 프로젝트"
+        url: /categories/achievement/
+
+  - title: "📊 데이터 & 분석"
+    children:
+      - title: "SQL"
+        url: /categories/sql/
+      - title: "Python"
+        url: /categories/python/
+      - title: "통계 & 방법론"
+        url: /categories/statistics/
+      - title: "프로덕트 분석"
+        url: /categories/product-analytics/
+      - title: "엔지니어링"
+        url: /categories/engineering/
+
+  - title: "📚 읽을거리"
+    url: /categories/reading/
+
+# 영어 포스트용 사이드바
+categories_en:
+  - title: "🇰🇷 한국어"
+    url: /
+  - title: "🇺🇸 English"
+    url: /en/
+
+  - title: "🚀 Growth Journey"
+    children:
+      - title: "Study Log"
+        url: /categories/study-log/
+      - title: "Retrospective"
+        url: /categories/retrospective/
+      - title: "Achievement"
+        url: /categories/achievement/
+
+  - title: "📊 Data & Analytics"
+    children:
+      - title: "SQL"
+        url: /categories/sql/
+      - title: "Python"
+        url: /categories/python/
+      - title: "Statistics"
+        url: /categories/statistics/
+      - title: "Product Analytics"
+        url: /categories/product-analytics/
+      - title: "Engineering"
+        url: /categories/engineering/
+
+  - title: "📚 Reading"
+    url: /categories/reading/
