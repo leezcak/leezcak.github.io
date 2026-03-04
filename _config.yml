@@ -80,7 +80,7 @@ social:
   name                   : "턴어페이지"
   links:
     - "https://github.com/leezcak"
-    - "https://www.linkedin.com/in/YOUR_LINKEDIN_ID"  # ← 본인 LinkedIn URL로 교체!
+    - "https://www.linkedin.com/in/ireneyejin-lee/"  # ← 본인 LinkedIn URL로 교체!
 
 # =============================================================================
 # Analytics
@@ -113,7 +113,7 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/YOUR_LINKEDIN_ID"  # ← 교체!
+      url: "https://www.linkedin.com/in/ireneyejin-lee/"  # ← 교체!
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leezcak"
