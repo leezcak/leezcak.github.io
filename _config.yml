@@ -59,7 +59,7 @@ search_provider          : lunr
 # =============================================================================
 # SEO - 가입 후 값 입력하세요
 # =============================================================================
-google_site_verification :   # ← Google Search Console 인증 후 입력
+google_site_verification :   "lWt3AlIe9LmK4I48gyLhlDzJinWQCD_6_vi686KseWY"
 bing_site_verification   :
 naver_site_verification  :   # ← Naver Search Advisor 인증 후 입력
 yandex_site_verification :
