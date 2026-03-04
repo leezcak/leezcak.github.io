@@ -39,7 +39,7 @@ search_full_content      : true
 search_provider          : lunr
 
 google_site_verification : "lWt3AlIe9LmK4I48gyLhlDzJinWQCD_6_vi686KseWY"
-naver_site_verification  : ""
+naver_site_verification  : "293f3558daea86719605bfc56f235d97b108e32a"
 
 og_image                 : "/assets/images/og-default.png"
 social:
