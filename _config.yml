@@ -2,6 +2,7 @@
 # 턴어페이지 - 데이터 블로그
 # =============================================================================
 
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast"
 
 # Site Settings
