@@ -1,13 +1,11 @@
 # =============================================================================
-# 턴어페이지 - 데이터 블로그 | Bilingual (KO/EN) + LinkedIn
+# 턴어페이지 - 데이터 블로그
 # =============================================================================
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast"  # ← 변경: 가독성 좋은 스킨
+minimal_mistakes_skin    : "contrast"
 
 # Site Settings
-locale                   : "ko-KR"  # ← 변경: 한국어
+locale                   : "ko-KR"
 rtl                      : false
 title                    : "턴어페이지"
 title_separator          : "|"
