@@ -80,6 +80,7 @@ exclude:
   - Gemfile
   - LICENSE
   - README
+  - CHANGELOG.md
   - /docs
   - /test
 keep_files:
