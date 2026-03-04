@@ -1,9 +1,48 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+$link-color: #10b981;
+$link-color-hover: #059669;
+$link-color-visited: #10b981;
+$masthead-link-color: #10b981;
+$navicon-link-color-hover: #10b981;
+$primary-color: #10b981;
+$footer-background-color: #1a1a2e;
+
+@import "minimal-mistakes/skins/contrast";
+@import "minimal-mistakes";
+
+/* 한국어 폰트 */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
+
+body {
+  font-family: 'Pretendard Variable', 'Pretendard', -apple-system, sans-serif;
+  word-break: keep-all;
+}
+
+/* 목차 활성 항목 */
+.toc .active a {
+  color: #10b981;
+}
+
+/* 검색 돋보기 */
+.greedy-nav .search__toggle {
+  color: #10b981;
+}
+
+/* 네비게이션 hover */
+.greedy-nav a:hover {
+  color: #10b981;
+}
+
+/* 사이드바 링크 hover */
+.nav__list a:hover {
+  color: #10b981;
+}
+
+/* 코드 폰트 */
+code {
+  font-family: 'D2Coding', 'Fira Code', monospace;
+}
