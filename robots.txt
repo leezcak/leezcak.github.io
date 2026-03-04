@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://leezcak.github.io/sitemap.xml
+
