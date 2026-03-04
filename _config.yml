@@ -1,103 +1,62 @@
-# =============================================================================
 # 턴어페이지 - 데이터 블로그
-# =============================================================================
 
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast"
 
-# Site Settings
 locale                   : "ko-KR"
-rtl                      : false
 title                    : "턴어페이지"
 title_separator          : "|"
-name                     : "턴어페이지 | Turn a Page"
-description              : "데이터 분석가의 성장 블로그. 실무 인사이트, 분석 방법론, 커리어 여정을 한국어와 영어로 기록합니다."
+name                     : "턴어페이지"
+description              : "데이터 분석가의 성장 블로그"
 url                      : "https://leezcak.github.io"
 baseurl                  : ""
 repository               : "leezcak/leezcak.github.io"
-teaser                   : 
-logo                     : 
 masthead_title           : "턴어페이지"
-breadcrumbs              : true  # ← 변경: 경로 표시 켜기
-words_per_minute         : 150   # ← 변경: 한국어 읽기 속도
-enable_copy_code_button  : true  # ← 변경: 코드 복사 버튼
-copyright                : "턴어페이지 | Turn a Page"
+breadcrumbs              : true
+words_per_minute         : 150
+enable_copy_code_button  : true
+copyright                : "턴어페이지"
 
-# =============================================================================
-# Comments - giscus ✅ 설정 완료!
-# =============================================================================
 comments:
-  provider               : "giscus"  # ← 변경!
+  provider               : "giscus"
   giscus:
-    repo_id              : "R_kgDOPW_cSw"              # ← 입력 완료!
-    category_name        : "General"                     # ← 입력 완료!
-    category_id          : "DIC_kwDOPW_cS84C3pA9"       # ← 입력 완료!
+    repo_id              : "R_kgDOPW_cSw"
+    category_name        : "General"
+    category_id          : "DIC_kwDOPW_cS84C3pA9"
     discussion_term      : "pathname"
     reactions_enabled    : "1"
-    theme                : "preferred_color_scheme"
+    theme                : "light"
     strict               : "0"
     input_position       : "bottom"
     emit_metadata        : "1"
     lang                 : "ko"
     lazy                 : true
 
-reCaptcha:
-  siteKey                :
-  secret                 :
-
-# =============================================================================
-# Feed & Search
-# =============================================================================
 atom_feed:
-  path                   :
   hide                   : false
 search                   : true
 search_full_content      : true
 search_provider          : lunr
 
-# =============================================================================
-# SEO - 가입 후 값 입력하세요
-# =============================================================================
-google_site_verification :   "lWt3AlIe9LmK4I48gyLhlDzJinWQCD_6_vi686KseWY"
-bing_site_verification   :
-naver_site_verification  :   "293f3558daea86719605bfc56f235d97b108e32a"
-yandex_site_verification :
-baidu_site_verification  :
+google_site_verification : "lWt3AlIe9LmK4I48gyLhlDzJinWQCD_6_vi686KseWY"
+naver_site_verification  : ""
 
-# =============================================================================
-# Social Sharing & Open Graph (LinkedIn 최적화)
-# =============================================================================
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : "/assets/images/og-default.png"  # ← 변경: LinkedIn 공유 이미지 (1200x630)
+og_image                 : "/assets/images/og-default.png"
 social:
   type                   : "Person"
   name                   : "턴어페이지"
   links:
     - "https://github.com/leezcak"
-    - "https://www.linkedin.com/in/ireneyejin-lee/"  # ← 본인 LinkedIn URL로 교체!
+    - "https://www.linkedin.com/in/ireneyejin-lee/"
 
-# =============================================================================
-# Analytics
-# =============================================================================
 analytics:
-  provider               : "google-gtag"  # ← GA4 사용 시 변경
-  google:
-    tracking_id          :   # ← GA4 측정 ID (G-XXXXXXXXXX) 입력
-    anonymize_ip         : false
+  provider               : false
 
-# =============================================================================
-# Site Author
-# =============================================================================
 author:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ireneyejin-lee"  # ← 교체!
+      url: "https://www.linkedin.com/in/ireneyejin-lee"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leezcak"
@@ -105,61 +64,29 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:hmynmsrnl@gmail.com"
 
-# =============================================================================
-# Site Footer
-# =============================================================================
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ireneyejin-lee/"  # ← 교체!
+      url: "https://www.linkedin.com/in/ireneyejin-lee/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leezcak"
 
-# =============================================================================
-# Reading Files
-# =============================================================================
 include:
-  - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
   - LICENSE
-  - log
-  - minimal-mistakes-jekyll.gemspec
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
   - README
-  - tmp
   - /docs
   - /test
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# =============================================================================
-# Conversion & Markdown
-# =============================================================================
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -172,37 +99,27 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: "1..6"
+  smart_quotes: "lsquo,rsquo,ldquo,rdquo"
   enable_coderay: false
 
-# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-# =============================================================================
-# Outputting
-# =============================================================================
 permalink: /:categories/:title/
 timezone: Asia/Seoul
 
-# =============================================================================
-# Pagination
-# =============================================================================
 paginate: 8
 paginate_path: /page:num/
 
-# =============================================================================
-# Plugins
-# =============================================================================
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 whitelist:
   - jekyll-paginate
@@ -210,11 +127,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-seo-tag
+  - jekyll-remote-theme
 
-# =============================================================================
-# Archives
-# =============================================================================
 category_archive:
   type: liquid
   path: /categories/
@@ -222,19 +136,12 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# =============================================================================
-# HTML Compression
-# =============================================================================
 compress_html:
   clippings: all
   ignore:
     envs: development
 
-# =============================================================================
-# Defaults - 모든 포스트에 자동 적용
-# =============================================================================
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -242,28 +149,20 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true        # ← 변경: 댓글 켜기!
+      comments: true
       share: true
       related: true
-      show_date: true        # ← 추가: 날짜 표시
-      toc: true              # ← 추가: 목차 자동
+      show_date: true
+      toc: true
       toc_label: "목차"
       toc_sticky: true
       sidebar:
-        nav: "categories"    # ← 추가: 왼쪽 카테고리 메뉴
-  # _pages
+        nav: "categories"
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-      sidebar:
-        nav: "categories"
-  # home (메인 페이지)
-  - scope:
-      path: ""
-      type: "pages"
-    values:
       sidebar:
         nav: "categories"
