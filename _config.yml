@@ -109,7 +109,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-permalink: /:categories/:title/
+permalink: /:year/:month/:title/
 timezone: Asia/Seoul
 
 paginate: 8
